@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:id="@+id/qbitscience"
+    android:src="@drawable/qbitscience"
+    android:layout_marginTop="250dp"
+    android:layout_marginLeft="100dp"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:text="Click on the image \n above to call 2nd fragment"
+    android:textSize="30sp"
+    android:layout_marginTop="500dp"
+    android:gravity="center"
+    />
+
+</FrameLayout>
